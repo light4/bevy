@@ -222,7 +222,7 @@ pub struct GpuLights {
 pub const MAX_UNIFORM_BUFFER_POINT_LIGHTS: usize = 256;
 pub const MAX_DIRECTIONAL_LIGHTS: usize = 1;
 pub const DIRECTIONAL_SHADOW_LAYERS: u32 = MAX_DIRECTIONAL_LIGHTS as u32;
-pub const SHADOW_FORMAT: TextureFormat = TextureFormat::Depth32Float;
+pub const SHADOW_FORMAT: TextureFormat = DEFAULT_DEPTH_FORMAT;
 
 pub struct ShadowPipeline {
     pub view_layout: BindGroupLayout,
