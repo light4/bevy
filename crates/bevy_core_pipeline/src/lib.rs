@@ -32,7 +32,7 @@ use bevy_render::{
     },
     render_resource::*,
     renderer::RenderDevice,
-    texture::{DEFAULT_DEPTH_FORMAT, TextureCache},
+    texture::{TextureCache, DEFAULT_DEPTH_FORMAT},
     view::{ExtractedView, Msaa, ViewDepthTexture},
     RenderApp, RenderStage, RenderWorld,
 };

@@ -181,7 +181,7 @@ pub async fn initialize_renderer(
     // Maybe get features and limits based on what is supported by the adapter/backend
     let mut features = wgpu::Features::empty();
     let mut limits = options.limits.clone();
-    
+
     let adapter_info = adapter.get_info();
     info!("{:?}", adapter_info);
 

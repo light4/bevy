@@ -21,7 +21,7 @@ use bevy_render::{
     render_phase::{EntityRenderCommand, RenderCommandResult, TrackedRenderPass},
     render_resource::{std140::AsStd140, *},
     renderer::{RenderDevice, RenderQueue},
-    texture::{BevyDefault, DEFAULT_DEPTH_FORMAT, GpuImage, Image, TextureFormatPixelInfo},
+    texture::{BevyDefault, GpuImage, Image, TextureFormatPixelInfo, DEFAULT_DEPTH_FORMAT},
     view::{ComputedVisibility, ViewUniform, ViewUniformOffset, ViewUniforms},
     RenderApp, RenderStage,
 };
